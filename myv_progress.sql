@@ -2,6 +2,7 @@ drop table if exists rising.myv_universe_progress;
 create table rising.myv_universe_progress as (
 
 #here is my change!!!!!
+#change number 2
 with texts as (
 select vanid, resultshortname, datecanvassed, statecode as vb_vf_source_state from (
 select cc.datecanvassed
