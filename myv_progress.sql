@@ -3,6 +3,7 @@ create table rising.myv_universe_progress as (
 
 #here is my change!!!!!
 #change number 2
+#change number 3
 with texts as (
 select vanid, resultshortname, datecanvassed, statecode as vb_vf_source_state from (
 select cc.datecanvassed
